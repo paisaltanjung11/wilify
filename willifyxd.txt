@@ -15,8 +15,3 @@ CSS: External styles for layout and design.
 JavaScript: Interactivity and form validation.
 Figma: Prototyping tool for designing the website layout and user interface.
 
-Design Considerations
-The website adheres to principles of human-computer interaction to ensure usability.
-Designed for responsiveness, ensuring optimal viewing on desktops, tablets, and mobile devices.
-All CSS is organized externally, utilizing box positioning for layout without tables.
-The prototype and final design focus on color, font, size, and layout consistency.
