@@ -1,0 +1,212 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-color: white;
+  margin-top: 80px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fbf3f3;
+}
+
+.navbar a {
+  font-size: 16px;
+  color: black;
+  font-weight: 500;
+  margin-left: 35px;
+  text-decoration: none;
+}
+
+.text {
+  padding-left: 170px;
+  padding-right: 170px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: row;
+}
+
+.text-container {
+  padding-right: 350px;
+}
+
+#create {
+  padding-top: 140px;
+  font-weight: bold;
+  font-size: 48px;
+  padding-bottom: 30px;
+}
+
+#reg {
+  font-size: 24px;
+}
+
+#cardo {
+  border-radius: 10%;
+  width: 100%;
+}
+
+.card {
+  padding-top: 60px;
+}
+
+.history {
+  width: auto;
+  height: 371px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 170px;
+  padding-right: 170px;
+  margin-top: 100px;
+}
+
+#our-history {
+  display: flex;
+  width: 300px;
+  height: auto;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.founded {
+  display: flex;
+  flex-direction: column;
+  padding-left: 600px;
+}
+
+#historia {
+  font-size: 28px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+#sejarah {
+  font-size: 24px;
+}
+
+.founder {
+  width: auto;
+  height: 220px;
+  padding-left: 170px;
+  padding-right: 170px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 150px;
+}
+
+.hoho {
+  display: flex;
+  flex-direction: row;
+}
+
+.textos {
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+#founderss {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#meetss {
+  font-size: 24px;
+  margin-top: 13px;
+}
+
+.footer {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #fbf3f3;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .text {
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-direction: column;
+  }
+
+  .text-container {
+    padding-right: 0;
+    padding-top: 30px;
+  }
+
+  #create {
+    padding-top: 20px;
+    font-size: 36px;
+  }
+
+  #reg {
+    font-size: 18px;
+  }
+
+  .history {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #our-history {
+    font-size: 36px;
+  }
+
+  .founded {
+    padding-left: 0;
+  }
+
+  #sejarah {
+    font-size: 18px;
+  }
+
+  .founder {
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .textos {
+    padding-left: 0;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  #founderss {
+    font-size: 24px;
+  }
+
+  #meetss {
+    font-size: 18px;
+  }
+
+  .footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 16px;
+  }
+}

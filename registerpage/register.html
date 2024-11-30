@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register - Willify</title>
+    <link rel="stylesheet" href="register.css" />
+    <script src="registervalidation.js" defer></script>
+  </head>
+  <body>
+    <div>
+      <header class="header">
+        <a href="../homepage/index.html" class="Logo"
+          ><img src="../asset/homepage/Willify.png" alt=""
+        /></a>
+
+        <nav class="navbar">
+          <a href="../homepage/index.html">Home</a>
+          <a href="../uspage/about.html">About Us</a>
+          <a href="../SongPage/songspage.html">Songs</a>
+          <a href="../registerpage/register.html">Register</a>
+        </nav>
+      </header>
+    </div>
+
+    <div class="text">
+      <div class="text-container">
+        <p id="create">Create Your Willify Account</p>
+        <p id="reg">Register to start exploring awesome music!</p>
+      </div>
+      <div class="card">
+        <img src="../asset/register/registcard.png" alt="" id="cardo" />
+      </div>
+    </div>
+
+    <div class="registo">
+      <p id="forma">Register Form</p>
+      <p id="fill">Please fill in your details below</p>
+    </div>
+
+    <div class="arah">
+      <form id="register-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required />
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email address"
+          required
+        />
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          placeholder="Create a password"
+          required
+          minlength="6"
+        />
+        <label for="age">Age</label>
+        <input
+          type="number"
+          id="age"
+          placeholder="Enter your age"
+          required
+          min="1"
+        />
+        <label for="gender">Gender</label>
+        <div class="gender">
+          <select id="gender" name="gender" required>
+            <option value="">Select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="button">
+          <input type="submit" value="Register" />
+        </div>
+      </form>
+      <div id="errorMessages"></div>
+    </div>
+
+    <div class="footer">
+      <p>© 2006 Willify. All Rights Reserved.</p>
+    </div>
+  </body>
+</html>
